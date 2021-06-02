@@ -1,0 +1,7 @@
+
+
+services:
+    - docker
+
+script:
+    - ./testing/test_build.sh --native
