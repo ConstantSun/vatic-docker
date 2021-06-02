@@ -8,7 +8,7 @@ RUN apt-get update && \
     apt-get update && \
     apt-get install -y ffmpeg gstreamer0.10-ffmpeg
 
-RUN sudo pip install SQLAlchemy==1.0.0 && \
+RUN sudo pip install SQLAlchemy==1.4.17 && \
     sudo pip install wsgilog==0.3 && \
     sudo pip install cython==0.20 && \
     sudo pip install mysql-python==1.2.5 && \
